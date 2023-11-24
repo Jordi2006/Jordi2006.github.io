@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rainbow Six Siege</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estils.css">
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="Personatges.html">Personatges</a></li>
+                <li><a href="Mapes.html">Mapes</a></li>
+                <li><a href="Armes.html">Armes</a></li>
+                <li><a class="active" href="Formulari.html">Formulari</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <form action="gracies.html" method="get" name="Formulari" id="Formulari">
+                <h1>Formulari</h1>
+                <fieldset>
+                    <legend>T'agradaria jugar a aquest joc?</legend>
+                    <label for="T'agrada" required> </label> <br>
+                    <input required type="radio" name="T'agrada" id="Sí" value="Sí"> Sí <br>
+                    <input type="radio" name="T'agrada" id="No" value="No"> No <br>
+                    <br>
+
+                    <label for="A quin mapa jugaries?">A quin mapa jugaries?</label>
+                    <select id="A quin mapa preferiries jugar?" required>
+                        <option value="" selected>- Selecciona -</option>
+                            <option value="Oregon">Oregon</option>
+                            <option value="Banc">Banc</option>
+                            <option value="Litoral">Litoral</option>
+                            <option value="Canal">Canal</option>
+                            <option value="Casa">Casa</option>
+                    </select><br><br>
+
+                </fieldset>
+
+                <fieldset>
+                    <label for="Combinació">Amb que preferixes jugar a aquest joc?</label><br>
+                    <input type="checkbox" name="Combinació" value="Rifle d'asalt i pistola" id="Rifle d'asalt i pistola">Rifle d'asalt i pistola<br>
+                    <input type="checkbox" name="Combinació" value="Escopeta i pistola ametralladora" id="Escopeta i pistola ametralladora">Escopeta i pistola ametralladora<br>
+                    <input type="checkbox" name="Combinació" value="Rifle de franctirador i pistola ametralladora" id="Rifle de franctirador i pistola ametralladora">Rifle de franctirador i pistola ametralladora<br>
+                    <input type="checkbox" name="Combinació" value="Metralladora lleugera i pistola" id="Metralladora lleugera i pistola">Metralladora lleugera i pistola<br>
+
+                </fieldset><br>
+
+                <fieldset>
+                    <button type="submit" id="submit">Enviar Formulari</button>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>by j0rd1
+        <p>
+    </footer>
+
+</body>
+
+</html>
